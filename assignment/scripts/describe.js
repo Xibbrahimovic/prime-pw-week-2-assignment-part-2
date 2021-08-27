@@ -78,11 +78,22 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
+//We are creating 3 variables. isStudent is assigned boolean value of true.
+// The variable age is assigned the value 34.
+// The variable zip is assigned the value 55407.
 //
+// We are creating a condition to check if isStudent is true AND if zip is equal to 8000.
+// If both conditions are met, then console.log 'You're a student on the West Coast!'
 //
+// However, if not met, check if isStudent is false AND if age is less than 30.
+// If both conditions are met, then console.log 'What are your hobbies?'
 //
+// If previous two are not met, on those conditions, then check to see if isStudent is equal to true.
+// If so, then console.log 'Welcome to Prime!'
 //
+// Last but not least, if none of those conditions are met, then console.log 'How about the weather?'
 
+//In this case, this code will excecute 'Welcome to Prime!'
 //CODE
 /*
 let isStudent = true;
