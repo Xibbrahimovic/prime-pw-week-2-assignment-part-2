@@ -153,6 +153,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - colorOne should be set to 'red' and colorTwo should be set to 'blue' as stated
+// Additionally, colorTwo should also be added to end of conditional code to be assigned 'purple'
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -169,6 +172,8 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+//FIX - comments of condtitional states we should have an AND statement, so the CODE
+// should read as '&&' not '||' which is read as OR
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -184,4 +189,8 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+//FIX - There are a couple problems here.
+// 1. Condtion should be set to '>=' not '<='
+// 2. console.log('Enter') should be the first result and 'no entry' should be on else statement 
 */
